@@ -1,0 +1,23 @@
+pt.nttdata.sniturh                   # Root do projeto
+│
+├── config
+│   └── IgestConfig.java             # Ponto 2: Configurações e @Beans
+│
+├── domain
+│   ├── model
+│   │   └── IgestLog.java            # A Entity JPA
+│   └── repository
+│       └── IgestLogRepository.java  # O Repository JPA
+│
+├── integration
+│   └── igest                        # Tudo o que é específico da ACIN/iGest
+│       ├── IgestGateway.java        # Comunicação HTTP (Ponto 3)
+│       ├── IgestOrchestrator.java   # Coordenação (Ponto 3)
+│       ├── model
+│       │   ├── IgestInvoiceRequest.java
+│       │   └── IgestResponse.java
+│       └── util
+│           └── IgestXmlUtil.java    # Hash SHA-1 e JAXB (Ponto 3)
+│
+└── service
+    └── FaturacaoService.java        # Lógica de negócio (chama o Orchestrator)

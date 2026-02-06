@@ -1,0 +1,1 @@
+./mvnw clean compile jib:build -Djib.to.auth.username="9aurgxhle7072v8a33feyegdx" -Djib.to.auth.password="dckr_pat_rEGSdGZ12XvanjAmqFfCv8pDeFA"

@@ -1,0 +1,41 @@
+--- FALHA CRÍTICA IGEST ---
+Data/Hora: 2026-02-06 17:26:45
+Identificador: d9b57cbe-2041-411e-a408-7a7f6e1f829c
+Método: novo_documento
+Erro: I/O error on POST request for "http://igest.acin.pt/igestalfa/webservice.php": HTTP/1.1 header parser received no bytes
+XML Request:
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<input>
+    <id_entidade>137</id_entidade>
+    <autenticacao>
+        <nif>599999993</nif>
+        <codigo>e1a864f0b77f6c89794827a9035355dc8d052622</codigo>
+        <chave>752374403e841097e2d288dccd4f11a5aaaf17d1</chave>
+        <data>2026-02-06 17:26:45</data>
+    </autenticacao>
+    <documento>
+        <tipo_documento>FT</tipo_documento>
+        <nif_cliente>123456789</nif_cliente>
+        <nome_cliente>Cliente Teste Sniturh</nome_cliente>
+        <data_documento>2026-02-06</data_documento>
+        <linhas>
+            <linha>
+                <referencia>REF001</referencia>
+                <descricao>Serviço de Alojamento</descricao>
+                <quantidade>1</quantidade>
+                <preco>120.00</preco>
+                <taxa>23</taxa>
+            </linha>
+            <linha>
+                <referencia>REF002</referencia>
+                <descricao>Taxa Turística</descricao>
+                <quantidade>1</quantidade>
+                <preco>2.00</preco>
+                <taxa>0</taxa>
+                <codigo_isencao>M01</codigo_isencao>
+                <motivo_isencao>Isento ao abrigo do Artigo 16.º do CIVA</motivo_isencao>
+            </linha>
+        </linhas>
+    </documento>
+</input>
+

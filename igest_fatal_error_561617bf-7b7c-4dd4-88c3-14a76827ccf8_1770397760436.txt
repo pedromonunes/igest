@@ -1,0 +1,41 @@
+--- FALHA CRÍTICA IGEST ---
+Data/Hora: 2026-02-06 17:09:20
+Identificador: 561617bf-7b7c-4dd4-88c3-14a76827ccf8
+Método: novo_documento
+Erro: 404 Not Found on POST request for "http://igest.acin.pt/igestalfa/webservice.php": "<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"><EOL><html><head><EOL><title>404 Not Found</title><EOL></head><body><EOL><h1>Not Found</h1><EOL><p>The requested URL was not found on this server.</p><EOL></body></html><EOL>"
+XML Request:
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<input>
+    <id_entidade>137</id_entidade>
+    <autenticacao>
+        <nif>599999993</nif>
+        <codigo>e1a864f0b77f6c89794827a9035355dc8d052622</codigo>
+        <chave>9427a34aa040b265587b9c56d45b068081a5820c</chave>
+        <data>2026-02-06 17:09:17</data>
+    </autenticacao>
+    <documento>
+        <tipo_documento>FT</tipo_documento>
+        <nif_cliente>123456789</nif_cliente>
+        <nome_cliente>Cliente Teste Sniturh</nome_cliente>
+        <data_documento>2026-02-06</data_documento>
+        <linhas>
+            <linha>
+                <referencia>REF001</referencia>
+                <descricao>Serviço de Alojamento</descricao>
+                <quantidade>1</quantidade>
+                <preco>120.00</preco>
+                <taxa>23</taxa>
+            </linha>
+            <linha>
+                <referencia>REF002</referencia>
+                <descricao>Taxa Turística</descricao>
+                <quantidade>1</quantidade>
+                <preco>2.00</preco>
+                <taxa>0</taxa>
+                <codigo_isencao>M01</codigo_isencao>
+                <motivo_isencao>Isento ao abrigo do Artigo 16.º do CIVA</motivo_isencao>
+            </linha>
+        </linhas>
+    </documento>
+</input>
+
