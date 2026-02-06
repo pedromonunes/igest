@@ -1,4 +1,4 @@
-pt.nttdata.sniturh                   # Root do projeto
+org.pn.igest                   		 # Root do projeto
 │
 ├── config
 │   └── IgestConfig.java             # Ponto 2: Configurações e @Beans
